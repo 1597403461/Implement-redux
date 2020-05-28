@@ -1,0 +1,22 @@
+{
+  "name": "implement-redux",
+  "version": "1.0.0",
+  "description": "从0到1实现redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1597403461/Implement-redux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1597403461/Implement-redux/issues"
+  },
+  "homepage": "https://github.com/1597403461/Implement-redux#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0"
+  }
+}
