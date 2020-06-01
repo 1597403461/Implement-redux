@@ -1,5 +1,5 @@
 import { combineReducers, createStore, applyMiddleware } from './redux/index.js';
-import { logger, timer } from './middleware/index.js';
+import { logger, timer, thunk } from './middleware/index.js';
 
 
 const infoReducer = (state = 'danny', action) => {
@@ -24,8 +24,14 @@ const reducer = combineReducers({
     info: infoReducer,
 })
 
-const store = createStore(reducer, applyMiddleware(timer, logger));
+const store = createStore(reducer, applyMiddleware(thunk, timer, logger));
 
-store.subscribe(() => { console.log(store.getState()) })
+// store.subscribe(() => { console.log(store.getState()) })
 
-store.dispatch(({ type: 'NUMBER', payLoad: 2 }));
+const setNumber = () => (dispatch, getState) => {
+    console.log('start')
+    dispatch({ type: 'NUMBER', payLoad: 2 })
+    console.log('end')
+}
+
+store.dispatch(setNumber());
