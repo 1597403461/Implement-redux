@@ -1,6 +1,16 @@
 # Implement-redux [此处原文链接](https://github.com/brickspert/blog/issues/22)
 
-## 我只是代码以及博客的搬运工
+## 安装 vsCode 插件code running
+
+## 本地项目执行
+
+打包本地代码
+
+`npm run build`
+
+生成dist文件目录，执行bundle.js
+
+## LOG
 
  src/redux 为各函数的源码
 

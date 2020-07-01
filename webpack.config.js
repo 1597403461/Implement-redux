@@ -2,6 +2,7 @@ const webpack = require('webpack');
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 var config = {
+    mode:'production',
     entry: ['./src/index.js'], // 打包入口文件
     output: {
         path: path.resolve(__dirname, 'dist'),
