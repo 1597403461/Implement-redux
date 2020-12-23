@@ -1,4 +1,4 @@
-# Implement-redux [此处原文链接](https://github.com/brickspert/blog/issues/22)
+# Implement-redux
 
 ## 安装 vsCode 插件code running
 
@@ -18,4 +18,10 @@
 
  src/index.js为redux的正常使用方式
 
+## doc 文件夹
+
+带你从 0 - 1 实现 redux
+
 ## 都看懂的话也可以去吹牛了
+
+[参考链接（完全理解 redux）](https://github.com/brickspert/blog/issues/22)
