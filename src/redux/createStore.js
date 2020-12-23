@@ -21,7 +21,6 @@ const createStore = (reducer, initialState, rewriteCreateStoreFunc) => {
             const index = listeners.indexOf(listener)
             listeners.splice(index, 1)
         }
-
     }
 
     // dispatch 就是修改数据的触发函数
